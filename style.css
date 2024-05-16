@@ -1,0 +1,105 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+pre{
+    font-size: medium; 
+}
+
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;  
+  }
+
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+
+  p{
+    font-size:medium ;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+
+  td{
+    font-weight: lighter;
+  }
+    
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+ 
+  
+  .left {
+    width: 250px;
+  }
+  
+/*measurements of demo profile picture*/
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+/* To give a hover effect to the image */
+  .profile-image:hover {
+    transform: scale(0.9); /* Adjust the scale factor as per your preference */
+    transition: transform 0.3s ease; 
+  }
+  
+  
+/* working to maintain the invisible container and space*/
+  .content {
+    flex-grow: 1;
+  }
+  
+
+  .info{
+    margin-top: 20px;
+  }
+  
+  
+  
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #0000FF;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #aacdcff5;
+  }
+
+
+
+/*To Create Location Logo*/
+  address {
+    display: inline-block;
+    padding-left: 15px;
+    margin-right: 20px;
+  }
+
+  address:after {
+    content: '';
+    background: rgb(12, 0, 0);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 25px;
+    border-radius: 50% 50% 50% 0%;
+    transform: rotate(-50deg);
+  }
+
+  
