@@ -49,7 +49,7 @@ h4 {
   }
 /* To give a hover effect to the image */
   .profile-image:hover {
-    transform: scale(0.9); /* Adjust the scale factor as per your preference */
+    transform: scale(0.9); 
     transition: transform 0.3s ease; 
   }
   
